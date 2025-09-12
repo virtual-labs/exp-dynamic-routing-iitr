@@ -1,39 +1,53 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "questions": [
+      {
+        "question": "Which algorithm is used by the OSPF protocol?",
+        "options": [
+          "a. Bellman Ford",
+          "b. Floyd Warshall",
+          "c. Dijkstra",
+          "d. none of the above"
+        ],
+        "answer": "c"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "OSPF stands for ___________.",
+        "options": [
+          "a. Open Software Path First",
+          "b. Open Shortest Path First",
+          "c. Open Shortcut Protocol First",
+          "d. Open Software Protocol Field"
+        ],
+        "answer": "b"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "RIP is a _________ protocol.",
+        "options": [
+          "a. Distance Vector Protocol",
+          "b. Path Vector Protocol",
+          "c. Link State",
+          "d. Routed protocol"
+        ],
+        "answer": "a"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Dynamic routing is a networking technique that provides optimal data routing?",
+        "options": [
+          "a. True",
+          "b. False"
+          
+        ],
+        "answer": "a"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+      {
+        "question": "The Routing Information Protocol (RIP) is an intra domain routing based on _________ routing.",
+        "options": [
+          "a. distance vector",
+          "b. link state",
+          "c. path vector",
+          "d. distance code"
+        ],
+        "answer": "a"
+      }
+    ]
 }
