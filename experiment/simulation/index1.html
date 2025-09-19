@@ -13,8 +13,8 @@
         <link rel="stylesheet" href="css/AdminLTE.css">
         <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="css/_all-skins.min.css">
-        <link rel="stylesheet" href="css/rip.css">
         <!-- Simulation scripts start-->
+        <link rel="stylesheet" href="css/ospf.css">
           <script src="js/math.ob.js"></script>
 
           <script src="js/numcheck.ob.js"></script>
@@ -34,37 +34,38 @@
                                     popupWindow = window.open(url,'popUpWindow','height=500,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
                                   }
           </script>
+ 
 
-     
 <body>
-    <div class="box">
-
+    <div class="boxx">
+    
         <div id="myDropdown" class="dropdown-content">
             <p style="text-align:justify;line-height: 1.5"><b>Follow these steps:</b><br>
              
               <b>1. </b>Click on New Graph button.<br>
               <b>2. </b>As soon as the new graph is added, the initial table will be created automatically initially depicting the directly connected nodes.<br>
-              <b>3. </b>Continue clicking the <b>Update</b> button until all tables are updated.<br>
+              <b>3. </b>For each node table individually, click the <b>Update</b> button to get the final table.<br>
               <b>4. </b>For adding an extra edge specify the source and destination along with the weight to connect the two nodes and click the <b>Submit</b> button.<br> 
-              <b>5. </b>After the new edges have been added, once again click the <b>Update</b> button.<br>
+              <b>5. </b>After the new edges have been added, again update the table by clicking on <b>Update</b> button.<br>
               <b>6. </b>For sending the data packet, provide the source node and destination node in the space provided and click the <b>Send Message</b> button.<br>
               <b>7. </b>The best path will be chosen and displayed using red lines.
            </p>
           </div>
-    
 
+      
 
 <div>
-    <h1 class="main-heading">RIP Routing Protocol</h1>
+    
+    <h1 class="main-heading">OSPF Routing Protocol</h1>
     <section class="content-header">
-    <div style=" text-align: center; ">
-       <label for="exps"><h2>Choose an Experiment:</h2></label>
-       <select name="exps" id="exps" onChange="switchExp()">
-       <option type="button" value="1" selected>RIP (Routing Internet Protocol)</option>
-       <option type="button" value="2" >OSPF (Open Shortest Path First)</option>
-       </select>
-       <button class="ins" onclick="myFunction()" >INSTRUCTIONS</button>
-    </div>
+        <div  style=" text-align: center; ">
+           <label for="exps"><h2>Choose an Experiment:</h2></label>
+           <select name="exps" id="exps" onChange="switchExp()">
+           <option type="button" value="1">RIP (Routing Internet Protocol)</option>
+           <option type="button" value="2"  selected>OSPF (Open Shortest Path First)</option>
+          </select>
+          <button class="ins" onclick="myFunction()" >INSTRUCTIONS</button>
+       </div>
     </section>
     
 </div>
@@ -73,64 +74,68 @@
     function switchExp(){
     let selInd = parseInt(document.querySelector('#exps').value);
     if (selInd == 1){
-
-        window.location.replace('simulation (RIP).html');
+        window.location.replace('index2.html');
     }
     else if (selInd == 2){
-        window.location.replace('simulation (OSPF).html');
+        window.location.replace('index1.html'); }
     }
-    }
-</script>        
+</script> 
 
-
+<!--First row started-->
     <div class="row" id="roww">
 
-        <div class="col-lg-2 col-xl-12 c1" >           
-            <button style="  border: 2px black solid;" class="btn btn-light" onclick="f()">New Graph</button>
-             <button style="border: 2px black solid;margin-left:15px"  class="btn btn-dark" onclick=window.location.reload() >Reset</button><br>
+        <!--first column started-->
+        <div class="col-lg-2  c1" >
 
-            <div  style="margin-top: 20px;">
+            <button  style="  border: 2px black solid;" class="btn btn-light" onclick="f()">New Graph</button>
+            <button style="border: 2px black solid;margin-left:15px"  class="btn btn-dark" onclick=window.location.reload() >Reset</button><br>
 
+            <div style="margin-top: 20px;" >
             <h3>Add edge</h3>
-             <input placeholder="Source Node" class="input1 "><br>
-             <input placeholder="Destination Node" class="input2 "><br>
-             <input placeholder="Weight" type="number" maxlength = "2"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" class="input3 "><br>
-             <button style="  border: 2px black solid;margin-top:10px; " type="submit" id="submit" disabled class="btn btn-light " onclick="update()">Submit</button>
-            
-            </div>
-    
-           <h3 >Send Packet</h3>
-             <input placeholder="source Node" class="input4"><br>
-             <input placeholder="Destination Node" class="input5"><br>
-             <button style="  border: 2px black solid; margin-top: 10px;" class="btn btn-light" id="send" disabled type="submit" onclick="dim()">Send Message</button>
-
-       </div>
-
-        <div class="col-lg-8 col-xl-12 c2">
-        <canvas id="canvas" width="750" height="450" style="background-color:white;border:2px solid black;overflow:scroll ;" ></canvas>
-        </div>
-
-        <div class="col-lg-2 col-xl-12 c3">
-        </div>
-
-    </div>
- 
-    
-        <div class="row">
-
-            <div class="col-lg-1">    
+            <input placeholder="Source Node" class="input1 ss"><br>
+            <input placeholder="Destination Node" class="input2 ss"><br>
+            <input placeholder="Weight" type="number" maxlength = "2" min="0" oninput="validity.valid||(value='');" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  class="input3 ss"><br>
+            <button type="submit"  style="  border: 2px black solid; margin-top: 10px;" id="submit" disabled class="btn btn-light " onclick="update()">Submit</button>
             </div>
 
-            <div class="col-lg-2" align="center" style=" justify-content: center;display: flex;">
-                <table>
-        
-        
-                <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0;"  colspan="3">Table of A</th>
-                
+            <div style="margin-top: 20px;" >
+            <h3 >Send packet</h3>
+            <input placeholder="Source Node"  class="input4"><br>
+            <input placeholder="Destination Node" class="input5"><br>
+            <button type="submit" style="border: 2px black solid; margin-top: 10px;" class="btn btn-light" id="cell1" disabled onclick="dim()">Send Message</button>
+            </div>
+
+          </div>  <!--first column ended-->
+         
+        <!--second column start-->
+        <div class="col-lg-8  c2">
+        <canvas id="canvas" width="750" height="450" style="background-color: WHITE; border :2px solid black; overflow: scroll;"></canvas>
+        </div> <!--second column ended-->
+
+
+        <!--Third column start-->
+        <div class="col-lg-2  c3">
+        </div><!--Third column ended-->
+
+    </div> <!--First row ended-->
+   
+
+    <!--Second row started-->
+    <div class="row">
+
+        <div class="col-lg-1"></div>
+
+        <!--Table 1 started-->
+        <div class=col-lg-2 align="center"  style=" justify-content: center; " >
+
+            <table class="ltable" >
                 <tr>
-                    <th  style="border-right:1px solid black;">Nodes</th>
-                    <th  style="border-right:1px solid black;" >Dist.</th>
-                    <th>Next.N</th>
+                    <th  style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of A</th>
+                </tr>
+                <tr>
+                    <th style="border-right:1px solid black;">Nodes</th>
+                    <th style="border-right:1px solid black;">Dist.</th>
+                    <th>Path</th>
                 </tr>
                 <tr>
                     <td><input id="ta11" value="A" readonly="readonly" size="1"></td>
@@ -157,17 +162,22 @@
                     <td><input id="ta52" size="1"></td>
                     <td><input id="ta53" size="1"></td>
                 </tr>
-            </table>
-            </div>
-            <div class="col-lg-2" align="center" style=" justify-content: center;display: flex;">
-                <table>
-                
-                    <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of B</th>
-                
+            </table><br>
+
+            <button  class="btn vv1"  id="cell2" disabled onclick="updateA()">Update A</button>
+        </div> <!--Table 1 ended-->
+
+
+         <!--Table 2 started-->
+        <div class=col-lg-2 align="center">
+            <table>
                 <tr>
-                    <th  style="border-right:1px solid black;" >Nodes</th>
-                    <th  style="border-right:1px solid black;">Dist.</th>
-                    <th>Next.N</th>
+                    <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of B</th>
+                </tr>
+                <tr>
+                    <th style="border-right:1px solid black;">Nodes</th>
+                    <th style="border-right:1px solid black;">Dist.</th>
+                    <th>Path</th>
                 </tr>
                 <tr>
                     <td><input id="tb11" value="A" readonly="readonly" size="1"></td>
@@ -194,63 +204,59 @@
                     <td><input id="tb52" size="1"></td>
                     <td><input id="tb53" size="1"></td>
                 </tr>
-            </table>
-            
-            </div>
+            </table><br>
+            <button align="center" class="btn btn-light vv2" id="cell3" disabled onclick="updateB()">Update B</button>
 
-            <div class="col-lg-2" align="center" style=" justify-content: center;display: flex;">
+        </div><!--Table 2 ended-->
+
+        <div class=col-lg-2 align="center">
             <table>
-             <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of C</th>
-        
                 <tr>
-                  <th  style="border-right:1px solid black;">Nodes</th>
-                  <th  style="border-right:1px solid black;">Dist.</th>
-                  <th>Next.N</th>
+                    <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of C</th>
                 </tr>
-
-               <tr>
-                 <td><input id="tc11" value="A" readonly="readonly" size="1"></td>
-                 <td><input id="tc12" size="1"></td>
-                 <td><input id="tc13" size="1"></td>
-               </tr>
-        
-               <tr>
-                 <td><input id="tc21" value="B" readonly="readonly" size="1"></td>
-                 <td><input id="tc22" size="1"></td>
-                 <td><input id="tc23" size="1"></td>
-               </tr>
-       
-               <tr>
-                 <td><input id="tc31" value="C" readonly="readonly" size="1"></td>
-                 <td><input id="tc32" size="1" value="0"  readonly="readonly"></td>
-                 <td><input id="tc33" size="1" value="C"  readonly="readonly"></td>
-               </tr>
-
-              <tr>
-                 <td><input id="tc41" value="D" readonly="readonly" size="1"></td>
-                 <td><input id="tc42" size="1"></td>
-                 <td><input id="tc43" size="1"></td>
-              </tr>
-
-            <tr>
-              <td><input id="tc51" value="E" readonly="readonly" size="1"></td>
-              <td><input id="tc52" size="1"></td>
-              <td><input id="tc53" size="1"></td>
-            </tr>
-
-           </table>
-
-            </div>
-
-            <div class="col-lg-2" align="center" style=" justify-content: center;display: flex;">
-                <table>
-        
-                <th  style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of D</th>
-                
                 <tr>
-                    <th  style="border-right:1px solid black;">Nodes</th>
+                    <th style="border-right:1px solid black;">Nodes</th>
                     <th style="border-right:1px solid black;">Dist.</th>
-                    <th>Next.N</th>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td><input id="tc11" value="A" readonly="readonly" size="1"></td>
+                    <td><input id="tc12" size="1"></td>
+                    <td><input id="tc13" size="1"></td>
+                </tr>
+                <tr>
+                    <td><input id="tc21" value="B" readonly="readonly" size="1"></td>
+                    <td><input id="tc22" size="1"></td>
+                    <td><input id="tc23" size="1"></td>
+                </tr>
+                <tr>
+                    <td><input id="tc31" value="C" readonly="readonly" size="1"></td>
+                    <td><input id="tc32" size="1" value="0"  readonly="readonly"></td>
+                    <td><input id="tc33" size="1" value="C"  readonly="readonly"></td>
+                </tr>
+                <tr>
+                    <td><input id="tc41" value="D" readonly="readonly" size="1"></td>
+                    <td><input id="tc42" size="1"></td>
+                    <td><input id="tc43" size="1"></td>
+                </tr>
+                <tr>
+                    <td><input id="tc51" value="E" readonly="readonly" size="1"></td>
+                    <td><input id="tc52" size="1"></td>
+                    <td><input id="tc53" size="1"></td>
+                </tr>
+            </table><br>
+            <button align="center" class="btn btn-light vv3" id="cell4" disabled onclick="updateC()">Update C</button>
+        </div>
+
+        <div class=col-lg-2 align="center" >
+            <table>
+                <tr>
+                    <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of D</th>
+                </tr>
+                <tr>
+                    <th style="border-right:1px solid black;">Nodes</th>
+                    <th style="border-right:1px solid black;">Dist.</th>
+                    <th>Path</th>
                 </tr>
                 <tr>
                     <td><input id="td11" value="A" readonly="readonly" size="1"></td>
@@ -277,18 +283,20 @@
                     <td><input id="td52" size="1"></td>
                     <td><input id="td53" size="1"></td>
                 </tr>
-            </table>
-            </div>
+            </table><br>
+<button  align="center" class="btn btn-light vv4" id="cell5" disabled onclick="updateD()">Update D</button>
 
-            <div class="col-lg-2" align="center" style=" justify-content: center;display: flex;">
-                <table>
-        
+        </div>
+
+        <div class=col-lg-2 align="center" >
+            <table>
+                <tr>
                     <th style="text-align: center; border-bottom:1px solid black ; margin-bottom: 0; " colspan="3">Table of E</th>
-                
+                </tr>
                 <tr>
                     <th style="border-right:1px solid black;">Nodes</th>
-                    <th style="border-right:1px solid black;" >Dist.</th>
-                    <th>Next.N</th>
+                    <th style="border-right:1px solid black;">Dist.</th>
+                    <th>Path</th>
                 </tr>
                 <tr>
                     <td><input id="te11" value="A" readonly="readonly" size="1"></td>
@@ -315,28 +323,28 @@
                     <td><input id="te52" size="1" value="0"  readonly="readonly" ></td>
                     <td><input id="te53" size="1" value="E"  readonly="readonly"></td>
                 </tr>
-            </table>
-            </div>
+            </table><br>
+             <button align="center" class="btn btn-light vv5" id="cell6" disabled onclick="updateE()" >Update E</button>
+           </div>
+    
+        <div class=col-lg-1></div>
 
-            <div class="col-lg-1" style=" justify-content: center;display: flex;" >
-                <button   style="  border: 2px black solid;"  class="btn btn-light update" disabled id="update" onclick="fun()">Update</button>
-            </div>
+        </div> <!--Second row ended-->
 
-        </div>
-     </div>
+    </div><!--box ended-->
 
-      <footer class="footer">
-      &copy; 2024 Virtual Labs, IIT Roorkee
-    </footer>
-
-
-       
-        <script src="js/rip.js"></script>
+        <footer  class="footer">
+            &copy; 2024 Virtual Labs, IIT Roorkee
+        </footer>
+   
+        
+        <script src="js/ospf.js"></script>
+        
         <script>
         function myFunction() {
         console.log("check");
         document.getElementById("myDropdown").classList.toggle("show");
-        }
+       }
         </script>
 
     </body>
