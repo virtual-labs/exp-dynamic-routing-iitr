@@ -1,53 +1,52 @@
-{
-    "questions": [
-      {
+[
+  {
+      
         "question": "Which of the following is routing protocol?",
-        "options": [
-          "a. Dijkstra",
-          "b. OSPF",
-          "c. Bellman Ford",
-          "d. None"
-        ],
-        "answer": "b"
+        "answers": {
+          "a": "Dijkstra",
+          "b": "OSPF",
+          "c": "Bellman Ford",
+          "d": "None"
+        },
+        "correctAnswer": "b"
       },
       {
         "question": "Name the protocol which uses hop count as a routing metric to find the best path between the source and the destination network?",
-        "options": [
-          "a. RIP",
-          "b. BGP",
-          "c. OSPF",
-          "d. All of the above"
-        ],
-        "answer": "a"
+        "answers": {
+          "a": "RIP",
+          "b": "BGP",
+          "c": "OSPF",
+          "d": "All of the above"
+      },
+        "correctAnswer": "a"
       },
       {
         "question": "Which one of the following is TRUE about interior Gateway routing protocols - Routing Information Protocol (RIP) and Open Shortest Path First (OSPF)?",
-        "options": [
-          "a. RIP uses distance vector routing and OSPF uses link state routing",
-          "b. OSPF uses distance vector routing and RIP uses link state routing",
-          "c. Both RIP and OSPF use link state routing",
-          "d. Both RIP and OSPF use distance vector routing"
-        ],
-        "answer": "a"
+        "answers": {
+          "a": "RIP uses distance vector routing and OSPF uses link state routing",
+          "b": "OSPF uses distance vector routing and RIP uses link state routing",
+          "c": "Both RIP and OSPF use link state routing",
+          "d": "Both RIP and OSPF use distance vector routing"
+      },
+        "correctAnswer": "a"
       },
       {
         "question": "OSPF is an example of interior gateway protocol?",
-        "options": [
-          "a. True",
-          "b. False"
+        "answers": {
+          "a": "True",
+          "b": "False"
           
-        ],
-        "answer": "a"
+      },
+        "correctAnswer": "a"
       },
       {
         "question": "RIP sends out routing advertisements:",
-        "options": [
-          "a. every 30 sec",
-          "b. every 90 sec",
-          "c. as soon as they change",
-          "d. only once"
-        ],
-        "answer": "a"
-      }
-    ]
+        "answers": {
+          "a": "every 30 sec",
+          "b": "every 90 sec",
+          "c": "as soon as they change",
+          "d": "only once"
+      },
+        "correctAnswer": "a"   
 }
+  ]
