@@ -1,0 +1,54 @@
+[
+  {
+    
+      
+        "question": "Which algorithm is used by the OSPF protocol?",
+        "answers": {
+          "a": "Bellman Ford",
+          "b": "Floyd Warshall",
+          "c": "Dijkstra",
+          "d": "none of the above"
+        },
+        "correctAnswer": "c"
+      },
+      {
+        "question": "OSPF stands for ___________.",
+        "answers": {
+          "a": "Open Software Path First",
+          "b": "Open Shortest Path First",
+          "c": "Open Shortcut Protocol First",
+          "d": "Open Software Protocol Field"
+        },
+        "correctAnswer": "b"
+      },
+      {
+        "question": "RIP is a _________ protocol.",
+        "answers": {
+          "a": "Distance Vector Protocol",
+          "b": "Path Vector Protocol",
+          "c": "Link State",
+          "d": "Routed protocol"
+        },
+        "correctAnswer": "a"
+      },
+      {
+        "question": "Dynamic routing is a networking technique that provides optimal data routing?",
+        "answers": {
+          "a": "True",
+          "b": "False"
+          
+        },
+        "correctAnswer": "a"
+      },
+      {
+        "question": "The Routing Information Protocol (RIP) is an intra domain routing based on _________ routing.",
+        "answers": {
+          "a": "distance vector",
+          "b": "link state",
+          "c": "path vector",
+          "d": "distance code"
+        },
+        "correctAnswer": "a"
+      }
+    ]
+

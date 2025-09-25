@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Virtual Labs </title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <!-- Bootstrap 3.3.6 -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="css/AdminLTE.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="css/skins/_all-skins.min.css">
+        <!-- Simulation scripts start-->
+          <script src="js/math.ob.js"></script>
+
+          <script src="js/numcheck.ob.js"></script>
+          <script src="js/canvasjschart.ob.js"></script>
+          <script src="js/bracket.ob.js"></script>
+          <link href="css/StyleSheet1.css" rel="stylesheet" />
+
+        <script>
+            window.onload = function () {
+                document.getElementById("simulation").className = "active treeview";
+            }
+        </script>
+    <!-- Simulation scripts end-->
+    <style>
+body {font-family: 'Raleway', sans-serif;}
+.box{	  
+    position: absolute;
+        width: 1380px;
+        height: 810px;
+        border: 3px solid black;
+        background-color: #e3f6f5;     
+    } 
+    .main-heading{
+        text-align: center; 
+        margin-bottom: 30px; 
+        margin-top: 30px;
+        color: #272343;
+        font-size:45px;
+    }
+
+    .footer{
+  position:absolute;
+  top:810px;
+  width:1380px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size:18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+</style>
+    </head>
+
+    <body>
+     
+        <script type="text/javascript">
+          // Popup window code
+                                function newPopup(url) {
+                                  popupWindow = window.open(url,'popUpWindow','height=500,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+                                }
+        </script>
+        <div class="box" style="position: absolute;">
+       <div class="wrapper" style="background-color: #e3f6f5;">
+        <div>
+         
+            <section class="content-header1">
+              <h1 class="main-heading">Dynamic Routing Protocols</h1>
+                <div style=" text-align: center; ">
+      <label for="exps"><h2>Choose an Experiment:</h2></label>
+      <select name="exps" id="exps" onChange="switchExp()">
+        <option type="button" value="0" selected hidden>None</option>
+          <option type="button" value="1">RIP (Routing Internet Protocol)</option>
+          <option type="button" value="2">OSPF (Open Shortest Path First)</option>
+      </select>
+    </div>
+    <br/><br/>
+
+</section>
+
+</div>
+
+
+</div>
+
+   <script>
+    function switchExp(){
+    let selInd = parseInt(document.querySelector('#exps').value);
+    if (selInd == 1){
+
+        window.location.replace('index2.html');
+    }
+    else if (selInd == 2){
+        window.location.replace('index1.html');
+    }
+    }
+   </script>        
+
+</div>
+     
+      
+        <div class="footer">
+          &copy; 2024 Virtual Labs, IIT Roorkee
+     </div>
+   
+    
+        
+    <script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
+
+<!-- ./wrapper -->
+<!-- jQuery 2.2.3 -->
+<script src="js/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Slimscroll -->
+<script src="js/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="js/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="js/app.min.js"></script>
