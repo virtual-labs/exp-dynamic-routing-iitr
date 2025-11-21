@@ -53,7 +53,7 @@ In such situations, the routing table of every router must be updated asynchrono
 Consider 3-routers X, Y and Z as shown in figure. Each router have their routing table. Every routing table will contain distance to the destination nodes.  
 
 <center>
-<img style="mix-blend-mode: darken;" src="images/DVP1.jpg" alt="example">
+<img style="mix-blend-mode: darken;" src="images/DVP1.png" alt="example">
 <figcaption><strong>Fig. 1 Routing table of X, Y and Z</strong></figcaption>
 </center>
 
@@ -63,21 +63,21 @@ Consider router X , X will share it routing table to neighbors and neighbors wil
 As we can see that distance will be less going from X to Z when Y is intermediate node(hop) so it will be update in routing table X.  
 
 <center>
-<img style="mix-blend-mode: darken;" src="images/dvp2.jpg" alt="example">
+<img style="mix-blend-mode: darken;" src="images/dvp2.png" alt="example">
 <figcaption><strong>Fig. 2 Updated routing table of X</strong></figcaption>
 </center>
 
 Similarly for Z also –  
 
 <center>
-<img style="mix-blend-mode: darken;" src="images/dvp3.jpg" alt="example">
+<img style="mix-blend-mode: darken;" src="images/dvp3.png" alt="example">
 <figcaption><strong>Fig. 3 Updated routing table of Y</strong></figcaption>
 </center>
 
 Finally the routing table for all –  
 
 <center>
-<img style="mix-blend-mode: darken;" src="images/dvp4.jpg" alt="example">
+<img style="mix-blend-mode: darken;" src="images/dvp4.png" alt="example">
 <figcaption><strong>Fig. 4 Final routing table</strong></figcaption>
 </center>
 
