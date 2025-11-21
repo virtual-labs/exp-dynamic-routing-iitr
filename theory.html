@@ -1,0 +1,586 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'IITR',
+        'phase': 'Testing',
+        'expName': 'IMPLEMENTATION OF DYNAMIC ROUTING PROTOCOL',
+        'expShortName': 'dynamic-routing'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="dynamic-routing">
+    	<meta name="developer-institute" content="IITR">
+    	<meta name="learning-unit" content="IMPLEMENTATION OF DYNAMIC ROUTING PROTOCOL">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/css/toast.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="dynamic-routing" imagesdirectory="/plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] IMPLEMENTATION OF DYNAMIC ROUTING PROTOCOL" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITR&quot;,&quot;expname&quot;:&quot;IMPLEMENTATION OF DYNAMIC ROUTING PROTOCOL&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="implementation-of-dynamic-routing-protocol">Implementation of Dynamic Routing Protocol</h2>
+          
+            </div>
+              <h3 id="introduction">Introduction</h3>
+          <p>Routing protocols, according to the OSI routing framework, are layer management protocols for the network layer that specify how routers communicate with each other to distribute information and data that helps them to select routes between any two nodes on a computer network. Data packets are forwarded through the networks of the internet from one router to the other router until they reach their destination computer. Each router has a prior knowledge only of networks(nodes) attached to it directly. A routing protocol shares this information first among it’s immediate neighbours, and then throughout the network.<br>There Are various Algorithms used for this, some of them discussed in our project are:<br>Routing is divided into two categories:</p>
+          <ol>
+          <li>Static Routing</li>
+          <li>Dynamic Routing<ul>
+          <li>Routing Information Protocol (RIP)</li>
+          <li>Open Shortest Path First (OSPF)</li>
+          <li>Border Gateway Protocol (BGP)</li>
+          </ul>
+          </li>
+          </ol>
+          <h3 id="dynamic-routing">Dynamic Routing</h3>
+          <p>Dynamic router, also called adaptive routing, is a process whereby a router can transmit data through a different route or on the one it is assigned depending on the current state of the communication circuits within the system. Dynamic routing uses complex routing algorithms that do not provide high security like static routing. When the network change occurs, it sends the message to the router to ensure that the routes are then recalculated for sending updated routing information. In short, dynamic routing is automated and does not require information to be entered manually like static routing. Dynamic routing is usually implemented in large networks.</p>
+          <h3 id="i-routing-information-protocol-rip">i) Routing Information Protocol (RIP)</h3>
+          <p>Routing Information Protocol (RIP) is an implementation of the distance vector protocol. RIP is an intra-domain routing protocol used within an autonomous system. Here, intra-domain means routing the packets in a defined domain. It is one of the oldest dynamic routing protocols which uses hop count (number of routers occurring in between the source and destination network) as a routing metric to find the best path between the source and the destination network. Updates (routing information) is broadcasted, sending the entire updated table, the information is updated periodically (after every 30sec). It works on the principle of Bellman Ford Algorithm.</p>
+          <h3 id="bellman-fords-algorithm">Bellman-Ford’s Algorithm</h3>
+          <p>The distance vector routing protocol uses the basic principle of the Bellman-Ford Algorithm to identify the shortest path through the network. So, let us take a quick review of Bellman-Ford’s algorithm.</p>
+          <p>To calculate the shortest distance follow the following steps:</p>
+          <ul>
+          <li>Initially, the cost or a distance of a node to itself is set to 0.</li>
+          <li>The cost of a node to any other node is set to infinity ‘∞’ if the nodes are not connected directly.</li>
+          </ul>
+          <p>The minimal distance between the two nodes in a graph is calculated using the method below:<br><strong>D<sub>ij</sub></strong> = min {(C<sub>i1</sub> + D<sub>1j</sub>), (C<sub>i2</sub> + D<sub>2j</sub>), … (C<sub>iN</sub> + D<sub>Nj</sub>)}  </p>
+          <p>where,  </p>
+          <ul>
+          <li>D<sub>ij</sub> shortest distance between node i and j,  </li>
+          <li>C<sub>i1</sub> cost between node i and node 1  </li>
+          </ul>
+          <p>This algorithm is repeated until we find the shortest distance vector between two nodes.</p>
+          <h3 id="distance-vector-routing-algorithm">Distance Vector Routing Algorithm</h3>
+          <p>Bellman-Ford’s algorithm was designed with the view that we have all the initial information about each node in the graph at the same place. So, the Bellman-Ford algorithm was able to generate compensatory for each node synchronously.</p>
+          <p>In distance vector routing algorithm, we have to create the routing table for the routers in the autonomous system. In the autonomous system there can be changes like a new router has been added to the system or some network has stopped the services to a router or a link has failed.</p>
+          <p>In such situations, the routing table of every router must be updated asynchronously. Because a router has to update its routing table on the basis of information it receives from its neighbouring routers. So, the Bellman-Ford algorithm needs to be modified to design the distance vector routing algorithm:</p>
+          <ul>
+          <li>In distance vector routing algorithm, the cost is considered as the hop count (number of networks passed to reach the destination node). So a cost between two neighbouring routers is set to 1.</li>
+          <li>Each router updates its routing table when it receives the information (distance vector) form the neighbouring routers.</li>
+          <li>After updating its routing table, a router must forward its result to its neighbouring router. So that they can update their routing table.</li>
+          <li>Each router keeps the three information in its routing table i.e., destination network, cost &amp; the next hop.</li>
+          <li>The router sends the information of each route as a record R.</li>
+          </ul>
+          <p><strong>Example:</strong></p>
+          <p>Consider 3-routers X, Y and Z as shown in figure. Each router have their routing table. Every routing table will contain distance to the destination nodes.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/DVP1.png" alt="example">
+          <figcaption><strong>Fig. 1 Routing table of X, Y and Z</strong></figcaption>
+          </center>
+          
+          <p>Consider router X , X will share it routing table to neighbors and neighbors will share it routing table to it to X and distance from node X to destination will be calculated using bellmen- ford equation.<br><strong>Dx(y)</strong> = min { C(x,v) + Dv(y)} for each node y ∈ N  </p>
+          <p>As we can see that distance will be less going from X to Z when Y is intermediate node(hop) so it will be update in routing table X.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/dvp2.png" alt="example">
+          <figcaption><strong>Fig. 2 Updated routing table of X</strong></figcaption>
+          </center>
+          
+          <p>Similarly for Z also –  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/dvp3.png" alt="example">
+          <figcaption><strong>Fig. 3 Updated routing table of Y</strong></figcaption>
+          </center>
+          
+          <p>Finally the routing table for all –  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/dvp4.png" alt="example">
+          <figcaption><strong>Fig. 4 Final routing table</strong></figcaption>
+          </center>
+          
+          <h3 id="advantages-of-rip">Advantages of RIP</h3>
+          <ul>
+          <li>It is easy to configure.</li>
+          <li>It has less complexity.</li>
+          <li>The CPU utilization is less.</li>
+          </ul>
+          <h3 id="disadvantages-of-rip">Disadvantages of RIP</h3>
+          <ul>
+          <li>In RIP, the route is chosen based on the hop count metric. If another route of better bandwidth is available, then that route would not be chosen.</li>
+          <li>It broadcasts the routing updates to the entire network that creates a lot of traffic.</li>
+          <li>RIP supports maximum 15 hops which means that the maximum 16 hops can be configured in a RIP.</li>
+          <li>The RIP protocol has the highest Administrative distance value (i.e., 120), so it is not as reliable as the other routing protocols.</li>
+          </ul>
+          <h3 id="ii-open-shortest-path-first-ospf">ii) Open Shortest Path First (OSPF)</h3>
+          <p>Open Shortest Path First is a routing protocol for Internet Protocol networks. It is an intra-domain protocol, which means that it is used within an area or a network. It works on the link state routing algorithm in which each router contains the information of every domain, and based on this information, it determines the shortest path. It falls into the group of interior gateway protocols, operating inside a single autonomous system. It works on the principle of Dijkstra's algorithm, also known as the shortest path first (SPF) algorithm. OSPF uses the flooding technique that is, it checks all possible routes between source and destination and picks the shortest route(best route).</p>
+          <p><strong>Initialization:</strong></p>
+          <ul>
+          <li>Select the root node.</li>
+          <li>Set the shortest distance from the root node to every other node as the cost between the root node and that corresponding node.</li>
+          <li>The shortest distance between root node to root node is 0.</li>
+          </ul>
+          <p><strong>Iteration:</strong> This step is repeated until all the routers are added to the root node. This step has two sub-steps:</p>
+          <ul>
+          <li>Add the next node: Search the next node that is not in the path of the root node and select node with minimum cost. Add the selected node to the path.</li>
+          <li>Update: Now update the shortest distance for the rest of the nodes in the domain using the shortest distance of the node that we have just added to the path of step 2.</li>
+          </ul>
+          <p><strong>D<sub>j</sub></strong> = minimum (D<sub>j</sub>, D<sub>i</sub> + c<sub>ij</sub>) for all remaining nodes</p>
+          <p>Let us take an example, in the figure below, there is a topology of an AS.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/example.jpg" alt="example">
+          <figcaption><strong>Fig. 5 Link state example</strong></figcaption>
+          </center>
+          
+          <p>We will discuss how the shortest path tree for node A. First, we will initialize node A and set the shortest distance to its immediate neighbors.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Initialization.jpg" alt="">
+          <figcaption><strong>Fig. 6 Initialization</strong></figcaption>
+          </center>
+          
+          <p>Among the two immediate neighbors of node A, we will add a node to the path that has the shortest distance i.e., node B with shortest distance 2.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Iteration-1.jpg" alt="Iteration 01">
+          <figcaption><strong>Fig. 7 Routing table for node A after iteration 1</strong></figcaption>
+          </center>
+          
+          <p>Now search for the nodes that are not added to the path yet (C, D, E) and select the one with the shortest distance i.e., node D.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Iteration-2.jpg" alt="Iteration 02">
+          <figcaption><strong>Fig. 8 Routing table for node A after iteration 2</strong></figcaption>
+          </center>
+          
+          <p>Now, nodes B and D that we added to the path were directly connected to root node A and were at the shortest distance as compared to any other path. Further, we have node E and node C which can be reached by node A through node B or through node D. Let us check out which path is shortest.<br>D<sub>j</sub> = minimum (D<sub>j</sub>, D<sub>i</sub> + c<sub>ij</sub>)  </p>
+          <p>DE = minimum ((2+4) B, (3+5) D)<br>DE = minimum ((6) B, (8) D)<br>DE = 6  </p>
+          <p>Here we will choose the path for node E through node B.<br>Similarly, we will calculate the shortest distance for node C.  </p>
+          <p>DC = minimum (Dj, Di + cij)<br>DC = minimum ((2+5) B, (3+5+2+4) D)<br>DC = minimum ((7) B, (14) D)<br>DC = 7  </p>
+          <p>Now, node E has the shortest distance so we will add node E to the path.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Iteration-3.jpg" alt="Iteration 03">
+          <figcaption><strong>Fig. 9 Routing table for node A after iteration 3</strong></figcaption>
+          </center>
+          
+          <p>After adding node E to the path again explore the nodes that are not added to the path and there enlist their cost as the distance. Again select the node with the shortest distance so we will add node C to the path.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Iteration-4.jpg" alt="Iteration 04">
+          <figcaption><strong>Fig. 10 Routing table for node A after iteration 4</strong></figcaption>
+          </center>
+          
+          <p>Now we are left with node F and node G. We will calculate the shortest distance for node F and G as we did for nodes E and C. Among F and G, the node with the shortest distance is node F. Therefore, we will update and add node F to the path.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Iteration-5.jpg" alt="Iteration 05">
+          <figcaption><strong>Fig. 11 Routing table for node A after iteration 5</strong></figcaption>
+          </center>
+          
+          <p>Additionally, the root node A can reach node G through node F with the shortest distance, i.e., 9. Therefore, we finally add node G.</p>
+          <p><strong>Creating Routing Table</strong></p>
+          <p>Using the shortest path tree, each router generates a routing table consisting of three columns: destination, cost, and next router. The figure below displays a routing table for router A. Similarly, routing tables are created for all routers in the domain.  </p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Routing-table-node-A.jpg" alt="Routing table node A">
+          <figcaption><strong>Fig. 12 Routing table for node A</strong></figcaption>
+          </center>
+          
+          <h3 id="advantage-of-ospf">Advantage of OSPF</h3>
+          <ul>
+          <li>Unlimited hop counts.</li>
+          <li>Load balancing with equal-cost routes for the same destination.</li>
+          </ul>
+          <h3 id="disadvantage-of-ospf">Disadvantage of OSPF</h3>
+          <ul>
+          <li>It is complex to configure and difficult to troubleshoot. In a large network, only experienced network administrators can configure it.</li>
+          <li>It needs lots of information to calculate the best route for each destination. To store this information, OSPF consumes more memory than other routing protocols.</li>
+          <li>It requires an extra CPU process to run the SPF algorithm.</li>
+          </ul>
+          
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] IMPLEMENTATION OF DYNAMIC ROUTING PROTOCOL" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITR&quot;,&quot;expname&quot;:&quot;IMPLEMENTATION OF DYNAMIC ROUTING PROTOCOL&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://cdn.vlabs.ac.in/bug-report/vlabs-bug-report.js"></script><script type="module" src="/exp-dynamic-routing-iitr/plugins/svc-rating/index.js"></script><script type="module" src="/exp-dynamic-routing-iitr/plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>
