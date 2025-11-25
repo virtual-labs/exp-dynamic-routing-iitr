@@ -1,0 +1,26 @@
+﻿
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 2px solid black;
+    
+}
+h1{
+    text-align:center ;
+    color:blue;
+    width:100%;
+}
+
+.position-absolute {
+    
+    position: absolute !important;
+    backdrop-filter: blur(6px);
+
+  }
+  .swal2-popup {
+    font-size: 1.4rem !important;
+    font-family: Georgia, serif;
+  }

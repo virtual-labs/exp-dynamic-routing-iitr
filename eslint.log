@@ -1,0 +1,375 @@
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/app.min.js
+  13:31    warning  '$' is not defined                no-undef
+  13:104   warning  '$' is not defined                no-undef
+  13:190   warning  '$' is not defined                no-undef
+  13:222   warning  '$' is not defined                no-undef
+  13:256   warning  '$' is not defined                no-undef
+  13:277   warning  '$' is not defined                no-undef
+  13:303   warning  '$' is not defined                no-undef
+  13:331   warning  '$' is not defined                no-undef
+  13:385   warning  '$' is not defined                no-undef
+  13:435   warning  '$' is not defined                no-undef
+  13:500   warning  '$' is not defined                no-undef
+  13:566   warning  '$' is not defined                no-undef
+  13:568   warning  '$' is not defined                no-undef
+  13:656   warning  '$' is not defined                no-undef
+  13:751   warning  '$' is not defined                no-undef
+  13:800   warning  '$' is not defined                no-undef
+  13:918   warning  '$' is not defined                no-undef
+  13:976   warning  '$' is not defined                no-undef
+  13:994   warning  '$' is not defined                no-undef
+  13:1048  warning  '$' is not defined                no-undef
+  13:1081  warning  '$' is not defined                no-undef
+  13:1100  warning  '$' is not defined                no-undef
+  13:1197  warning  '$' is not defined                no-undef
+  13:1214  warning  '$' is not defined                no-undef
+  13:1271  warning  '$' is not defined                no-undef
+  13:1319  warning  '$' is not defined                no-undef
+  13:1350  warning  '$' is not defined                no-undef
+  13:1406  warning  '$' is not defined                no-undef
+  13:1431  warning  '$' is not defined                no-undef
+  13:1470  warning  '$' is not defined                no-undef
+  13:1541  warning  '$' is not defined                no-undef
+  13:1610  warning  '$' is not defined                no-undef
+  13:1645  warning  '$' is not defined                no-undef
+  13:1745  warning  '$' is not defined                no-undef
+  13:1811  warning  '$' is not defined                no-undef
+  13:1850  warning  '$' is not defined                no-undef
+  13:1877  warning  '$' is not defined                no-undef
+  13:1913  warning  '$' is not defined                no-undef
+  13:1954  warning  '$' is not defined                no-undef
+  13:1995  warning  '$' is not defined                no-undef
+  13:2024  warning  '$' is not defined                no-undef
+  13:2121  warning  '$' is not defined                no-undef
+  13:2157  warning  '$' is not defined                no-undef
+  13:2193  warning  '$' is not defined                no-undef
+  13:2229  warning  '$' is not defined                no-undef
+  13:2269  warning  '$' is not defined                no-undef
+  13:2313  warning  '$' is not defined                no-undef
+  13:2349  warning  '$' is not defined                no-undef
+  13:2398  warning  '$' is not defined                no-undef
+  13:2453  warning  '$' is not defined                no-undef
+  13:2554  warning  '$' is not defined                no-undef
+  13:2603  warning  '$' is not defined                no-undef
+  13:2685  warning  '$' is not defined                no-undef
+  13:2726  warning  '$' is not defined                no-undef
+  13:2760  warning  '$' is not defined                no-undef
+  13:2834  warning  '$' is not defined                no-undef
+  13:2899  warning  '$' is not defined                no-undef
+  13:3365  warning  '$' is not defined                no-undef
+  13:3425  warning  '$' is not defined                no-undef
+  13:3468  warning  '$' is not defined                no-undef
+  13:3484  warning  '$' is not defined                no-undef
+  13:3587  warning  '$' is not defined                no-undef
+  13:3675  warning  '$' is not defined                no-undef
+  13:3710  warning  '$' is not defined                no-undef
+  13:3756  warning  '$' is not defined                no-undef
+  13:3889  warning  '$' is not defined                no-undef
+  13:3993  warning  '$' is not defined                no-undef
+  13:4071  warning  '$' is not defined                no-undef
+  13:4148  warning  '$' is not defined                no-undef
+  13:4197  warning  '$' is not defined                no-undef
+  13:4443  warning  '$' is not defined                no-undef
+  13:4509  warning  '$' is not defined                no-undef
+  13:4541  warning  '$' is not defined                no-undef
+  13:4602  warning  '$' is not defined                no-undef
+  13:4668  warning  '$' is not defined                no-undef
+  13:4750  warning  '$' is not defined                no-undef
+  13:4829  warning  '$' is not defined                no-undef
+  13:4840  warning  '$' is not defined                no-undef
+  13:4915  warning  '$' is not defined                no-undef
+  13:5548  warning  '$' is not defined                no-undef
+  13:5562  warning  '$' is not defined                no-undef
+  13:6624  warning  '$' is not defined                no-undef
+  13:6650  warning  '$' is not defined                no-undef
+  13:6728  warning  '$' is not defined                no-undef
+  13:6740  warning  '$' is not defined                no-undef
+  13:6759  warning  'AdminLTEOptions' is not defined  no-undef
+  13:6782  warning  '$' is not defined                no-undef
+  13:6809  warning  '$' is not defined                no-undef
+  13:6838  warning  '$' is not defined                no-undef
+  13:6890  warning  '$' is not defined                no-undef
+  13:6971  warning  '$' is not defined                no-undef
+  13:6988  warning  '$' is not defined                no-undef
+  13:7136  warning  '$' is not defined                no-undef
+  13:7210  warning  '$' is not defined                no-undef
+  13:7279  warning  '$' is not defined                no-undef
+  13:7361  warning  'FastClick' is not defined        no-undef
+  13:7414  warning  '$' is not defined                no-undef
+  13:7489  warning  '$' is not defined                no-undef
+  13:7574  warning  '$' is not defined                no-undef
+  13:7638  warning  '$' is not defined                no-undef
+  13:7646  warning  '$' is not defined                no-undef
+  13:7734  warning  '$' is not defined                no-undef
+  13:8427  warning  'jQuery' is not defined           no-undef
+  13:8750  warning  'jQuery' is not defined           no-undef
+  13:9366  warning  'jQuery' is not defined           no-undef
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/bootstrap.min.js
+  6:319    warning  'jQuery' is not defined                 no-undef
+  6:1075   warning  'jQuery' is not defined                 no-undef
+  6:2009   warning  'jQuery' is not defined                 no-undef
+  6:3873   warning  'jQuery' is not defined                 no-undef
+  6:7916   warning  'jQuery' is not defined                 no-undef
+  6:11284  warning  'jQuery' is not defined                 no-undef
+  6:13647  warning  'jQuery' is not defined                 no-undef
+  6:19628  warning  'jQuery' is not defined                 no-undef
+  6:27173  warning  'a' is assigned a value but never used  no-unused-vars
+  6:28496  warning  'jQuery' is not defined                 no-undef
+  6:30085  warning  'jQuery' is not defined                 no-undef
+  7:499    warning  'jQuery' is not defined                 no-undef
+  7:2319   warning  'jQuery' is not defined                 no-undef
+  7:4732   warning  'jQuery' is not defined                 no-undef
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/bracket.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/canvasjschart.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/fastclick.js
+    1:1   warning  Unnecessary semicolon                                     no-extra-semi
+   13:19  warning  'Event' is already defined as a built-in global variable  no-redeclare
+   13:26  warning  'Node' is already defined as a built-in global variable   no-redeclare
+  746:69  warning  Unexpected comma in middle of array                       no-sparse-arrays
+  797:71  warning  Unexpected comma in middle of array                       no-sparse-arrays
+  835:46  warning  'module' is not defined                                   no-undef
+  836:3   warning  'module' is not defined                                   no-undef
+  837:3   warning  'module' is not defined                                   no-undef
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/fastclick.min.js
+  1:90    warning  'require' is not defined                                         no-undef
+  1:394   warning  'require' is not defined                                         no-undef
+  1:5526  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  1:7104  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  1:7154  warning  Unexpected comma in middle of array                              no-sparse-arrays
+  1:7182  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  1:7751  warning  Unexpected comma in middle of array                              no-sparse-arrays
+  1:8086  warning  'define' is not defined                                          no-undef
+  1:8098  warning  'define' is not defined                                          no-undef
+  1:8109  warning  'define' is not defined                                          no-undef
+  1:8397  warning  Unnecessary semicolon                                            no-extra-semi
+  1:8480  warning  Unnecessary semicolon                                            no-extra-semi
+  1:8667  warning  Unnecessary semicolon                                            no-extra-semi
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/jquery-2.2.3.min.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6147   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6403   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6834   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7093   warning  Empty block statement                                                      no-empty
+  2:7662   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9532   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11134  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11710  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11748  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12166  warning  Empty block statement                                                      no-empty
+  2:12729  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13041  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14869  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15140  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15340  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15716  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16421  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18805  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18896  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18956  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20258  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20872  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20983  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23243  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:23245  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:10     warning  Empty block statement                                                      no-empty
+  3:4145   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:4284   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:4900   warning  Empty block statement                                                      no-empty
+  3:13968  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:15550  warning  Empty block statement                                                      no-empty
+  3:17096  warning  Move function declaration to function body root                            no-inner-declarations
+  3:24430  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:26855  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:31319  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1015   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1095   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1438   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1518   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1939   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2216   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:7005   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9508   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10285  warning  'j.href' is assigned to itself                                             no-self-assign
+  4:11408  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14991  warning  Empty block statement                                                      no-empty
+  4:21305  warning  'define' is not defined                                                    no-undef
+  4:21317  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/jquery.slimscroll.min.js
+  13:37   warning  'm' is already defined         no-redeclare
+  13:282  warning  'c' is already defined         no-redeclare
+  14:47   warning  'h' is already defined         no-redeclare
+  14:247  warning  't' is not defined             no-undef
+  14:274  warning  'pageY' is not defined         no-undef
+  14:330  warning  'currTop' is not defined       no-undef
+  14:338  warning  't' is not defined             no-undef
+  14:348  warning  'pageY' is not defined         no-undef
+  14:366  warning  'currTop' is not defined       no-undef
+  14:439  warning  'a' is defined but never used  no-unused-vars
+  15:233  warning  'b' is defined but never used  no-unused-vars
+  16:374  warning  'jQuery' is not defined        no-undef
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/math.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/numcheck.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/ospf.js
+   32:10  warning  'sleep' is defined but never used    no-unused-vars
+  225:10  warning  'f' is defined but never used        no-unused-vars
+  361:10  warning  'update' is defined but never used   no-unused-vars
+  369:9   warning  'Swal' is not defined                no-undef
+  385:9   warning  'Swal' is not defined                no-undef
+  401:9   warning  'Swal' is not defined                no-undef
+  417:9   warning  'Swal' is not defined                no-undef
+  443:5   warning  'Swal' is not defined                no-undef
+  461:5   warning  'Swal' is not defined                no-undef
+  488:5   warning  'Swal' is not defined                no-undef
+  584:5   warning  'i' is not defined                   no-undef
+  585:5   warning  'w' is not defined                   no-undef
+  586:5   warning  'j' is not defined                   no-undef
+  589:9   warning  'i' is not defined                   no-undef
+  589:13  warning  'i' is not defined                   no-undef
+  589:17  warning  'i' is not defined                   no-undef
+  590:13  warning  'j' is not defined                   no-undef
+  590:17  warning  'j' is not defined                   no-undef
+  590:21  warning  'j' is not defined                   no-undef
+  591:20  warning  'i' is not defined                   no-undef
+  591:23  warning  'j' is not defined                   no-undef
+  594:21  warning  'i' is not defined                   no-undef
+  594:24  warning  'j' is not defined                   no-undef
+  596:20  warning  'i' is not defined                   no-undef
+  596:23  warning  'j' is not defined                   no-undef
+  597:17  warning  'k' is not defined                   no-undef
+  599:17  warning  'w' is not defined                   no-undef
+  599:32  warning  'i' is not defined                   no-undef
+  599:35  warning  'j' is not defined                   no-undef
+  600:21  warning  'k' is not defined                   no-undef
+  600:25  warning  'k' is not defined                   no-undef
+  600:29  warning  'k' is not defined                   no-undef
+  601:21  warning  'll' is not defined                  no-undef
+  601:24  warning  'w' is not defined                   no-undef
+  601:39  warning  'j' is not defined                   no-undef
+  601:42  warning  'k' is not defined                   no-undef
+  602:28  warning  'i' is not defined                   no-undef
+  602:31  warning  'k' is not defined                   no-undef
+  602:34  warning  'll' is not defined                  no-undef
+  603:29  warning  'i' is not defined                   no-undef
+  603:32  warning  'k' is not defined                   no-undef
+  603:35  warning  'll' is not defined                  no-undef
+  604:29  warning  'i' is not defined                   no-undef
+  604:32  warning  'k' is not defined                   no-undef
+  604:41  warning  'j' is not defined                   no-undef
+  604:48  warning  'j' is not defined                   no-undef
+  604:51  warning  'k' is not defined                   no-undef
+  612:10  warning  'updateA' is defined but never used  no-unused-vars
+  622:10  warning  'updateB' is defined but never used  no-unused-vars
+  632:10  warning  'updateC' is defined but never used  no-unused-vars
+  642:10  warning  'updateD' is defined but never used  no-unused-vars
+  652:10  warning  'updateE' is defined but never used  no-unused-vars
+  864:16  warning  'dim' is defined but never used      no-unused-vars
+  876:9   warning  'Swal' is not defined                no-undef
+  884:9   warning  'Swal' is not defined                no-undef
+  892:9   warning  'Swal' is not defined                no-undef
+  900:9   warning  'Swal' is not defined                no-undef
+  919:5   warning  'Swal' is not defined                no-undef
+
+/home/runner/work/exp-dynamic-routing-iitr/exp-dynamic-routing-iitr/experiment/simulation/js/rip.js
+   28:10  warning  'lees' is defined but never used    no-unused-vars
+   42:10  warning  'sleep' is defined but never used   no-unused-vars
+  236:10  warning  'f' is defined but never used       no-unused-vars
+  377:10  warning  'update' is defined but never used  no-unused-vars
+  385:9   warning  'Swal' is not defined               no-undef
+  401:9   warning  'Swal' is not defined               no-undef
+  417:9   warning  'Swal' is not defined               no-undef
+  433:9   warning  'Swal' is not defined               no-undef
+  459:5   warning  'Swal' is not defined               no-undef
+  477:5   warning  'Swal' is not defined               no-undef
+  503:5   warning  'Swal' is not defined               no-undef
+  522:11  warning  'fun' is defined but never used     no-unused-vars
+  524:9   warning  'i' is not defined                  no-undef
+  525:9   warning  'w' is not defined                  no-undef
+  526:13  warning  'i' is not defined                  no-undef
+  526:17  warning  'i' is not defined                  no-undef
+  526:21  warning  'i' is not defined                  no-undef
+  528:17  warning  'j' is not defined                  no-undef
+  528:21  warning  'j' is not defined                  no-undef
+  528:25  warning  'j' is not defined                  no-undef
+  529:23  warning  'i' is not defined                  no-undef
+  529:26  warning  'j' is not defined                  no-undef
+  531:24  warning  'i' is not defined                  no-undef
+  531:27  warning  'j' is not defined                  no-undef
+  534:13  warning  'i' is not defined                  no-undef
+  534:17  warning  'i' is not defined                  no-undef
+  534:21  warning  'i' is not defined                  no-undef
+  535:13  warning  'j' is not defined                  no-undef
+  536:17  warning  'j' is not defined                  no-undef
+  536:21  warning  'j' is not defined                  no-undef
+  536:25  warning  'j' is not defined                  no-undef
+  538:24  warning  'i' is not defined                  no-undef
+  538:27  warning  'j' is not defined                  no-undef
+  540:21  warning  'k' is not defined                  no-undef
+  541:21  warning  'w' is not defined                  no-undef
+  541:35  warning  'i' is not defined                  no-undef
+  541:38  warning  'j' is not defined                  no-undef
+  542:25  warning  'k' is not defined                  no-undef
+  542:29  warning  'k' is not defined                  no-undef
+  542:33  warning  'k' is not defined                  no-undef
+  543:25  warning  'll' is not defined                 no-undef
+  543:28  warning  'w' is not defined                  no-undef
+  543:42  warning  'j' is not defined                  no-undef
+  543:45  warning  'k' is not defined                  no-undef
+  544:31  warning  'i' is not defined                  no-undef
+  544:34  warning  'k' is not defined                  no-undef
+  544:37  warning  'll' is not defined                 no-undef
+  545:32  warning  'i' is not defined                  no-undef
+  545:35  warning  'k' is not defined                  no-undef
+  545:38  warning  'll' is not defined                 no-undef
+  547:33  warning  'i' is not defined                  no-undef
+  547:36  warning  'k' is not defined                  no-undef
+  547:45  warning  'j' is not defined                  no-undef
+  566:16  warning  'dim' is defined but never used     no-unused-vars
+  581:9   warning  'Swal' is not defined               no-undef
+  597:9   warning  'Swal' is not defined               no-undef
+  612:9   warning  'Swal' is not defined               no-undef
+  628:9   warning  'Swal' is not defined               no-undef
+  671:9   warning  'Swal' is not defined               no-undef
+  694:17  warning  'l1' is not defined                 no-undef
+  695:17  warning  'l2' is not defined                 no-undef
+  712:17  warning  'l1' is not defined                 no-undef
+  713:17  warning  'l2' is not defined                 no-undef
+  730:17  warning  'l1' is not defined                 no-undef
+  731:17  warning  'l2' is not defined                 no-undef
+  748:17  warning  'l1' is not defined                 no-undef
+  749:17  warning  'l2' is not defined                 no-undef
+  766:17  warning  'l1' is not defined                 no-undef
+  767:17  warning  'l2' is not defined                 no-undef
+  785:17  warning  'l3' is not defined                 no-undef
+  786:17  warning  'l4' is not defined                 no-undef
+  791:17  warning  'l3' is not defined                 no-undef
+  792:17  warning  'l4' is not defined                 no-undef
+  797:17  warning  'l3' is not defined                 no-undef
+  798:17  warning  'l4' is not defined                 no-undef
+  803:17  warning  'l3' is not defined                 no-undef
+  804:17  warning  'l4' is not defined                 no-undef
+  809:17  warning  'l3' is not defined                 no-undef
+  810:17  warning  'l4' is not defined                 no-undef
+  816:18  warning  'l1' is not defined                 no-undef
+  816:21  warning  'l2' is not defined                 no-undef
+  816:24  warning  'l3' is not defined                 no-undef
+  816:27  warning  'l4' is not defined                 no-undef
+
+✖ 347 problems (0 errors, 347 warnings)
+  0 errors and 4 warnings potentially fixable with the `--fix` option.
+
