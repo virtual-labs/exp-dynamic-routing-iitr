@@ -1,8 +1,4 @@
-### **General Instructions:**
 
-**Implementation of Dynamic Routing Protocol**  
-
-### Procedure  
 
 #### RIP Protocol  
 
